@@ -41,7 +41,8 @@ hr.sevenfive{
 .innobie-cover-logo-img img{
     height: 110px;
     float: left;
-    margin: 3% 0;
+    margin: 3% auto;
+    text-align: center;
 }
 .innobie-cover-logo-img p{
     font-size: 40px;
@@ -51,14 +52,10 @@ hr.sevenfive{
 }
 .innobie-cover-menu{
     text-align: right;
-    font-size: 16px;
-    margin: 55px 0;
 }
 .innobie-cover-menu a{
     text-decoration: none;
     color: white;
-    padding: 0 3px 10px 3px;
-    margin: 0 10px;
     transition-duration: 500ms;
 }
 .innobie-cover-menu a:hover{
@@ -67,12 +64,7 @@ hr.sevenfive{
 .innobie-cover-menu .language{
     margin-left: 10px;
 }
-.innobie-cover-menu .row{
-    float: right;
-}
 .innobie-cover-menu .language img{
-    width: 20px;
-    margin: 2px 5px;
     border-radius: 50%;
 }
 
@@ -81,7 +73,6 @@ hr.sevenfive{
 .innobie-quote{
     text-align: center;
     color: white;
-    font-size: 60px;
     width: 85%;
     margin: auto;
     padding-top: 5%;
@@ -115,12 +106,12 @@ hr.sevenfive{
 }
 .innobie-cover-buttons .button-container{
     margin: auto;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 .innobie-cover-buttons .button-container .button{
     padding: 20px 40px;
     border-radius: 40px;
-    margin: 0 10px;
+    margin: 30px 10px 0 10px;
     font-size: 25px;
     border: none;
     font-family: 'Quicksand', sans-serif;
@@ -169,6 +160,8 @@ hr.sevenfive{
 .eddie .eddie-text .eddie-stores img{
     width: 100%;
 }
+
+/* ----- EDDIE SLIDES ----- */
 
 .eddie-slides{
     width: 100%;
@@ -402,9 +395,8 @@ hr.sevenfive{
     text-align: center;
 }
 .wau .wau-topic{
-    width: 18%;
-    margin: 1%;
     padding: 1%;
+    margin-bottom: 20px;
 }
 .wau .wau-topic .wau-link{
     text-decoration: none;
@@ -460,9 +452,8 @@ hr.sevenfive{
     text-align: center;
 }
 .partners .partner-container{
-    width: 25%;
     padding: 0 5%;
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 .partners .partner-container img{
     height: 120px;

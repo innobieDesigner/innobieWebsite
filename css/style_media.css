@@ -1,0 +1,109 @@
+@media(max-width: 575px){
+    .innobie-cover-menu{
+        margin: 10px 0;
+        font-size: 13px;
+    }
+    .innobie-cover-menu .row{
+        float: none;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .innobie-cover-menu a{
+        padding: 0 3px 5px 3px;
+        margin: 0 5px;
+    }
+    .innobie-cover-menu .language img{
+        width: 15px;
+        margin: 2px 1px;
+    }
+    .innobie-quote{
+        padding-top: 20%;
+        font-size: 35px;
+    }
+}
+
+
+@media (min-width: 576px){
+    .innobie-cover-menu{
+        margin: 10px 0;
+        font-size: 13px;
+    }
+    .innobie-cover-menu .row{
+        float: none;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .innobie-cover-menu a{
+        padding: 0 3px 5px 3px;
+        margin: 0 5px;
+    }
+    .innobie-cover-menu .language img{
+        width: 15px;
+        margin: 2px 1px;
+    }
+    .innobie-quote{
+        padding-top: 20%;
+        font-size: 35px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .innobie-cover-menu {
+        font-size: 16px;
+    }
+    .innobie-cover-menu .row{
+        float: none;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .innobie-cover-menu a{
+        text-decoration: none;
+        color: white;
+        padding: 0 3px 10px 3px;
+        margin: 0 10px;
+        transition-duration: 500ms;
+    }
+    .innobie-cover-menu .language img{
+        width: 20px;
+        margin: 2px 5px;
+        border-radius: 50%;
+    }
+    .innobie-quote{
+        padding-top: 15%;
+        font-size: 50px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .innobie-cover-menu .row{
+        float: none;
+        margin: auto;
+        width: 72%;
+        text-align: center;
+    }
+    .innobie-quote{
+        padding-top: 10%;
+        font-size: 60px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .innobie-cover-menu{
+        margin: 55px 0;
+    }
+    .innobie-cover-menu .row{
+        float: right;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .innobie-quote{
+        padding-top: 5%;
+    }
+}
