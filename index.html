@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>innobie</title>
+
+    <link rel="icon" type="image/gif/png" href="img/logo_w.ico">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lekton" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+</head>
+<body>
+
+    <!-- ********** SPLASH SCREEN ********** -->
+
+    <div class="row opening-screen">
+        <div class="container cover">
+            <div class="row nav-bar">
+                <div class="col-xl-4 innobie-cover-logo-img">
+                    <img src="img/logo_c.png">
+                    <p>innobie</p>
+                </div>
+                <div class="col-xl-8 innobie-cover-menu">
+                    <div class="row">
+                        <a class="langEng" href="index.html">Home</a>
+                        <a class="langHun" href="index.html">Home</a>
+                        <a class="langEng" href="#Eddie">Eddie</a>
+                        <a class="langHun" href="#Eddie">Eddie</a>
+                        <a class="langEng" href="#Team">The Team</a>
+                        <a class="langHun" href="#Team">A csapat</a>
+                        <a class="langEng" href="#WrittenAboutUs">Written about us</a>
+                        <a class="langHun" href="#WrittenAboutUs">Rólunk írták</a>
+                        <a class="langEng" href="#Partners">Partners</a>
+                        <a class="langHun" href="#Partners">Támogatók</a>
+                        <a class="langEng" href="#Contact">Contact</a>
+                        <a class="langHun" href="#Contact">Kapcsolat</a>
+                        <div id="english" class="language">
+                            <img onclick="cte()" src="img/lang_en.png">
+                        </div>
+                        <div onclick="cth()" id="hungarian" class="language">
+                            <img src="img/lang_hu.png">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row innobie-quote">
+                <p class="langEng" lang="en">
+                    "Everyone knew it was impossible, until a fool who didn't know
+                    came along and did it."
+                </p>
+				<p class="langHun" lang="hu">
+                    “Mindenki tudja, hogy bizonyos dolgokat nem lehet megvalósítani,
+					mígnem jön valaki, aki erről nem tud, és megvalósítja.”
+                </p>
+                <p class="quote-from"><i>- Albert Einstein -</i></p>
+                <p lang="en" class="quote-innobe langEng">We, <span class="we-want">innobie</span>
+                    want to be that <span class="somebody">somebody!</span></p>
+				<p lang="hu" class="quote-innobe langHun">Az <span class="we-want">innobie</span>
+                célja, hogy mi legyünk az a <span class="somebody">valaki!</span></p>
+            </div>
+
+            <div class="row innobie-cover-buttons">
+                <div class="button-container">
+                    <a href="#Eddie"><button class="button button-eddie langEng">Try Eddie now!</button></a>
+                    <a href="#Eddie"><button class="button button-eddie langHun">Próbáld ki az Eddie-t!</button></a>
+                    <a href="#Team"><button class="button button-team langEng">More about us!</button></a>
+                    <a href="#Team"><button class="button button-team langHun">Tudj meg többet rólunk!</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ********** EDDIE STORES ********** -->
+
+    <div class="container-fluid eddie">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 eddie-logo">
+                    <img src="img/eddie.png">
+                </div>
+                <div class="col-xl-1">
+
+                </div>
+                <div class="col-xl-6 eddie-text">
+                    <p lang="en" class="eddie-name langEng">Eddie</p>
+					<p lang="hu" class="eddie-name langHun">Eddie</p>
+                    <p lang="en" class="eddie-short-desc langEng">- fun way of learning -</p>
+                    <p lang="hu" class="eddie-short-desc langHun">- az élmény alapú tanulás -</p>
+                    <hr class="sevenfive">
+                    <p lang="en" class="eddie-problem langEng">For the newer generations the presence and the usage
+                        of smartphone is obvious, but it’s potential are not used by the
+                        educational institutions.
+                    </p>
+					<p lang="hu" class="eddie-problem langHun">A mai fiatal generációnak már természetes az okostelefon
+						jelenléte és használata, a benne rejlő potenciált mégsem használják ki ezt olyan területeken,
+						mint például az oktatás.
+                    </p>
+                    <div class="row eddie-stores">
+                        <div class="col-xl-6 eddie-as">
+                            <a href="https://itunes.apple.com/hu/app/eddie-by-innobie/id1369036104?mt=8">
+								<img src="img/dl-as.png">
+							</a>
+                        </div>
+                        <div class="col-xl-6 eddie-gp">
+							<a href="https://play.google.com/store/apps/details?id=com.innobie.eddie&hl=hu">
+								<img src="img/dl-gp.png">
+							</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ********** EDDIE SLIDES ********** -->
+ <div id="Eddie">
+    <div class="container-fluid eddie-slides">
+        <div class="row">
+            <div class="col-xl-5 eddie-row-img-right"></div>
+            <div class="col-xl-7 eddie-row-text">
+                <p lang="en" class="eddie-row-title langEng">Part of the innovations</p>
+                <p lang="hu" class="eddie-row-title langHun">Fejlődésben</p>
+                <p lang="en" class="eddie-row-desc langEng">
+                    Our team is a <span class="high">collaboration</span>
+                    with <span class="high">high progression tendency</span>, combined with
+                    intellectual capital and technology. Our goal is to found a startup, which
+                    arouses the users' and the investors' interest, with its
+                    <span class="high">high growing rate</span> and
+                    <span class="high">youthful way of thinking</span>.
+                </p>
+				<p lang="hu" class="eddie-row-desc langHun">
+                    Csapatunk <span class="high">magas fejlődési potenciállal</span>
+                    büszkélkedő <span class="high">összefogás</span>, 
+					innovatív szellemi tőkével és technológiával.
+					Célunk, hogy a közeljövőben olyan startupot alapítsunk, 
+					amely nagy növekedési potenciájával és fiatalos 
+					gondolkodásmódjával 
+                    <span class="high">nagy növekedési potenciájával</span> és 
+                    <span class="high">fiatalos gondolkodásmódjával</span> felkelti a
+					felhasználók és a befektetők figyelmét.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-7 eddie-row-text">
+                <p lang="en" class="eddie-row-title langEng">Keeping up with trends</p>
+                <p lang="hu" class="eddie-row-title langHun">Lépésben a trendekkel</p>
+                <p lang="en" class="eddie-row-desc langEng">
+                    <span class="high">The only way</span>
+                    to keep up with the rapid evolution of the technologies
+                    is <span class="high">to be part of it</span>.
+                    Team <span class="high">innobie</span> follows the new IT trends
+                    <span class="high">day after day</span>
+                    and we are proud that our first project <span class="high">"Eddie"</span>
+                    is a product of the latest technologies'
+                    <span class="high">combination.</span>
+                </p>
+				<p lang="hu" class="eddie-row-desc langHun">
+                    <span class="high">Csak úgy lehet</span>
+                    lépést tartani a technológiák rohamos fejlődésével
+                    ha <span class="high">mi magunk is részesei vagyunk annak</span>.
+                    Az <span class="high">innobie</span> csapat <span class="high">napról-napra</span>
+                    figyeli az informatikai trendeket és büszkék vagyunk arra, hogy az első 
+					projektünk mely az <span class="high">"Eddie"</span> nevet kapta,
+                    a legfrissebb technológiák 
+                    <span class="high">ötvözésének</span> terméke.
+                </p>
+            </div>
+            <div class="col-xl-5 eddie-row-img-left"></div>
+        </div>
+        <div class="row">
+            <div class="col-xl-5 eddie-row-img-right"></div>
+            <div class="col-xl-7 eddie-row-text">
+                <p lang="en" class="eddie-row-title langEng">Entertainment and education</p>
+                <p lang="hu" class="eddie-row-title langHun">Szórakozás és tanulás</p>
+                <p lang="en" class="eddie-row-desc langEng">
+                    It's a fact, that the younger generations use smartphones
+                    <span class="high">on a daily basis.</span>
+                    We believe the these gadgets could make the learning process
+                    <span class="high">more interesting</span>,
+                    <span class="high">more interactive</span>,
+                    <span class="high">and more experiencing</span>
+                    for the nowadays students.
+                </p>
+				<p lang="hu" class="eddie-row-desc langHun">
+                    Kijelenthető, hogy a fiatalok nagyon nagy része 
+                    <span class="high">napi szinten aktívan</span> használ okostelefont.
+                    Meggyőződésünk, hogy ezek a készülékek a tanulási folyamatot
+                    <span class="high">sokkal érdekesebbé</span>,
+                    <span class="high">sokkal élményszerűbbé</span>,
+                    <span class="high">és sokkal interaktívabbá</span>
+                   tehetik a tanulók számára a jelenkor modern technológiáival.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-xl-7 eddie-row-text">
+                    <p lang="en" class="eddie-row-title langEng">Augmented reality (AR)</p>
+                    <p lang="hu" class="eddie-row-title langHun">Kiterjesztett valóság (AR)</p>
+                    <p lang="en" class="eddie-row-desc langEng">
+                        Our application combines the <span class="high">traditional school book</span>
+                        and the <span class="high">opportunities
+                        what augmented reality provides</span>. The application recognises the
+                        different pictures, on which we can
+                        <span class="high">display 3D content</span> to our
+                        phone screen, related to the given subject.
+                    </p>
+					<p lang="hu" class="eddie-row-desc langHun">
+                        Az alkalmazásunk egyesíti a <span class="high">hagyományos tankönyv</span>
+                        és a <span class="high">kiterjesztett 
+						valóság nyújtotta lehetőségeket</span>. Okostelefonunk kamerája segítségével
+						képesek vagyunk felismertetni különböző képeket, melyre különböző, a témához
+						kapcsolódó
+                        <span class="high">3D tartalmat tudunk vetíteni</span>
+						és szemlélni a készülék kijelzőjének segítségével.
+                    </p>
+                </div>
+                <div class="col-xl-5 eddie-row-img-left"></div>
+            </div>
+        </div>
+    </div>
+	</div>
+
+    <!-- ********** INNOBIE TEAM ********** -->
+<div id="Team">
+    <div class="container-fluid innobie-team">
+        <div class="container team-members">
+            <div class="row">
+                <div class="col-12">
+                    <p lang="en" class="team-title langEng">Who are we?</p>
+                    <p lang="hu" class="team-title langHun">Kik vagyunk mi?</p>
+                </div>
+            </div>
+            <hr class="fifty">
+            <div class="row">
+                <div class="col-12">
+                    <p lang="en" class="team-title-desc langEng">There is only one goal front of us: create something
+                        that changes the environment around us positively.</p>
+					<p lang="hu" class="team-title-desc langHun">Csapatunk előtt egy cél lebeg: valami olyat alkotni,
+						mely képes a környezetünk pozitív megváltoztatására.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 team-member-1">
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="team-img" src="img/team_szandi.jpg">
+                            <p lang="en" class="team-img-role langEng">Founder</p>
+							<p lang="hu" class="team-img-role langHun">Alapító</p>
+                        </div>
+                        <div class="col-8">
+                            <p lang="en" class="team-name langEng">Aleksandra Apró</p>
+                            <p lang="hu" class="team-name langHun">Apró Alekszandra</p>
+                            <p lang="en" class="team-intro langEng">She is convinced that a lot of innovative plans
+							are failing because of how they are served. She finds it important for something
+							not only to be technologically new but also user-friendly. She is 21 years old and
+							her dream is to be able to say in the near future that she is a young entrepreneur.</p>
+							<p lang="hu" class="team-intro langHun">Meggyőződése, hogy sok innovatív terv a tálaláson
+                                bukik el.
+							Fontosnak tartja, hogy valami ne csak technológiailag új, hanem felhasználó barát
+                                is legyen.
+							Ezen dolgozik a csapatban nap mint nap. Jelenleg 21 éves és nagy álma, hogy a
+                                közeljövőben elmondhassa:
+							ő egy fiatal vállalkozó.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 team-member-2">
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="team-img" src="img/team_kristof.jpg">
+                            <p lang="en" class="team-img-role langEng">Founder, lead developer</p>
+                            <p lang="hu" class="team-img-role langHun">Alapító, vezető fejlesztő</p>
+                        </div>
+                        <div class="col-8">
+                            <p lang="en" class="team-name langEng">Kristóf Muhi</p>
+                            <p lang="hu" class="team-name langHun">Muhi Kristóf</p>
+							<p lang="en" class="team-intro langEng">A 21-year-old IT engineer student. He created his first
+							website as an 8-year-old and started programming in Pascal at the age of 12. He is always
+							looking for innovation opportunities and is the lead developer of the team.</p>
+                            <p lang="hu" class="team-intro langHun">21 éves, mérnökinformatikus hallgató. 8 éves korában
+                                készítette el első weboldalát és 12 évesen kezdett el Pascal-ban
+                                programozni. Állandóan az innovációs lehetőségeket keresi, a csapaton
+                                belül a vezető fejlesztő szerepét tölti be.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 team-member-3">
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="team-img" src="img/team_konrad.jpg">
+                            <p lang="en" class="team-img-role langEng">Web developer, PR</p>
+                            <p lang="hu" class="team-img-role langHun">Webfejlesztő, PR</p>
+                        </div>
+                        <div class="col-8">
+                            <p lang="en" class="team-name langEng">Konrád Kávai</p>
+                            <p lang="hu" class="team-name langHun">Kávai Konrád</p>
+                            <p lang="en" class="team-intro langEng">Second year student of János Neumann University.
+							He is studying IT engineering but in the team he is responsible for multimedia and design.
+							In addition to his studies, he works as a webdesigner trainee for a company in Kecskemét.
+							Most of his free time is made up of the creative activities of photography and videography</p>
+							<p lang="hu" class="team-intro langHun">A Neumann János Egyetem másodéves hallgatója.
+								Mérnökinformatikát tanul, de a csapatban ő felel a multimédiáért
+								és a designért.
+								A tanulmányai mellett weblaptervező gyakornokként dolgozik egy
+								kecskeméti cégnél. Szabadidejének nagy részét a fotózás és
+								videózás kreatív tevékenységének teszi ki.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 team-member-4">
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="team-img" src="img/team_petar.jpg">
+                            <p lang="en" class="team-img-role langEng">Developer</p>
+                            <p lang="hu" class="team-img-role langHun">Fejlesztő</p>
+                        </div>
+                        <div class="col-8">
+                            <p lang="en" class="team-name langEng">Petar Opačić</p>
+                            <p lang="hu" class="team-name langHun">Petar Opačić</p>
+							<p lang="en" class="team-intro langEng">21-year-old IT student at FIMEK University of Novi Sad.
+								He has been programming since he ages of 18 and has already made several websites and 
+								apps for Android and Windows platform. Within the team he works as a developer.</p>
+                            <p lang="hu" class="team-intro langHun">21 éves, informatika hallgató az Újvidéki FIMEK egyetemen.
+							18 éves korától programozással foglalkozik és már több weboldalt, valamint appot is csinált
+							Android és Windows platformra. A csapaton belül a fejlesztőként tevékenykedik.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 team-member-5">
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="team-img" src="img/team_karesz.jpg">
+                            <p lang="en" class="team-img-role langEng">3D modeler</p>
+                            <p lang="hu" class="team-img-role">3D modellező</p>
+                        </div>
+                        <div class="col-8">
+                            <p lang="en" class="team-name langEng">Károly Bicskei</p>
+                            <p lang="hu" class="team-name langHun">Bicskei Károly</p>
+                            <p lang="en" class="team-intro langEng">He made his first virtual model in primary school at
+							the age of 12, using Google SketchUp. This number has increased to hundreds since then. 
+							21-year-old mechanical engineering student at the Technical College of Subotica. 
+							Within the team he is responsible for creating 3D models for augmented reality.</p>
+							<p lang="hu" class="team-intro langHun">12 évesen hozta világra az első virtuális modelljét
+							az általános iskolában, amit a Google SketchUp segítségével készített. Mára ez a 
+							szám több százszorosára nőtt. 21 éves és gépésztechnikus hallgató a Szabadkai Műszaki 
+							Szakfőiskolán. A csapaton belül a kiterjesztett valósághoz szükséges 3D modellek
+                                készítéséért felelős.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 team-member-6">
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="team-img" src="img/team_krisztian.jpg">
+                            <p lang="en" class="team-img-role langEng">Customer support, sales</p>
+                            <p lang="hu" class="team-img-role langHun">Projekt koordinátor, sales</p>
+                        </div>
+                        <div class="col-8">
+                            <p lang="en" class="team-name langEng">Krisztián Székely</p>
+                            <p lang="hu" class="team-name langHun">Székely Krisztián</p>
+                            <p lang="en" class="team-intro langEng">21-year-old student at János Neumann University in
+                                Kecskemét,
+							studying IT engineering, industrial computer science. He continued his studies in
+                                Denmark in fall
+							2017 and relying on the experience gained there, he is the advisor of the team and
+                                coordinates the project.</p>
+							<p lang="hu" class="team-intro langHun">21 éves, Kecskeméten a Neumann János Egyetemen
+							mérnökinformatikát, ipari informatikát tanul. 2017 őszén Dániában folytatta tanulmányait, 
+							és az ott szerzett tapasztalatokra támaszkodva a csapatban tanácsadással és a 
+							projekt koordinálásával foglalkozik.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 offset-xl-3 team-member-7">
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="team-img" src="img/team_csabi.jpg">
+                            <p lang="en" class="team-img-role langEng">3D modeler</p>
+                            <p lang="hu" class="team-img-role langHun">3D modellező</p>
+                        </div>
+                        <div class="col-8">
+                            <p lang="en" class="team-name langEng">Csaba Juhász</p>
+                            <p lang="hu" class="team-name langHun">Juhász Csaba</p>
+                            <p lang="en" class="team-intro langEng">22 éves, harmadéves gépészmérnök hallgató a Neumann
+                                János Egyetemen. A csapaton belül a 3D modellek készítéséért felelős.
+                                A 3D modellezést a középiskolában kezdte el, és azóta is fejleszti
+                                a tudását. Mostanra már több tervező szoftver használatát is
+                                elsajátította, és számos bonyolult modellt/szerelést készített már el.</p>
+							<p lang="hu" class="team-intro langHun">22-year-old mechanical engineering student at
+								János Neumann University. Within the team, he is responsible for making 3D models.
+								He started 3D modeling in high school and he still developing his knowledge. 
+								He has now mastered the use of several design software and created a lot of 
+								complicated models and installations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- ********** AWARDS ********* -->
+
+    <div class="container-fluid timeline-fluid">
+        <div class="container">
+            <div class="timeline">
+                <div class="timeline-container left">
+                    <div class="timeline-content content-left">
+                        <img src="img/trophy.png">
+                        <div class="timeline-content-text-left">
+                            <h2 class="langEng">HackBudapest</h2>
+                            <h2 class="langHun">HackBudapest</h2>
+                            <p class="langEng" lang="en">22nd of October 2017.</p>
+                            <p class="langHun" lang="hu">2017. október 22.</p>
+                            <p lang="en" class="award-high langEng">2nd place</p>
+                            <p lang="hu" class="award-high langHun">2. hely</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="timeline-content content-right">
+                        <img src="img/trophy.png">
+                        <div class="timeline-content-text-right">
+                            <h2 class="langEng">Microsoft Imagine Cup national Finals</h2>
+                            <h2 class="langHun">Microsoft Imagine Cup országos döntő</h2>
+                            <p class="langEng" lang="en">4th of April 2018.</p>
+                            <p class="langHun" lang="hu">2018. április 4.</p>
+                            <p lang="en" class="award-high langEng">1st place</p>
+                            <p lang="hu" class="award-high langHun">1. hely</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-container left">
+                    <div class="timeline-content content-left">
+                        <img src="img/trophy.png">
+                        <div class="timeline-content-text-left">
+                            <h2 class="langEng">Women Startup Competition</h2>
+                            <h2 class="langHun">Women Startup Competition</h2>
+                            <p class="langEng" lang="en">28th of April 2018.</p>
+                            <p class="langHun" lang="hu">2018. április 28.</p>
+                            <p lang="en" class="award-high langEng">1st place</p>
+                            <p lang="hu" class="award-high langHun">1. hely</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="timeline-content content-right">
+                        <img src="img/trophy.png">
+                        <div class="timeline-content-text-right">
+                            <h2 class="langEng">Startup Campus University Bootcamp</h2>
+                            <h2 class="langHun">Startup Campus University Bootcamp</h2>
+                            <p class="langEng" lang="en">29th of April 2018.</p>
+                            <p class="langHun" lang="hu">2018. április 29.</p>
+                            <p lang="en" class="award-high langEng">Part of top 8</p>
+                            <p lang="hu" class="award-high langHun">Legjobb 8</p>
+                            <p class="langEng" lang="en">Attended on Pioneers Festival Vienna as a presenter</p>
+                            <p class="langHun" lang="hu">Részvétel a Pioneers Fesztiválon Bécsben előadóként</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-container left">
+                    <div class="timeline-content content-left">
+                        <img src="img/trophy.png">
+                        <div class="timeline-content-text-left">
+                            <h2 class="langEng">Idea challenge</h2>
+                            <h2 class="langHun">Ötlet verseny</h2>
+                            <p class="langEng" lang="en">18th of May 2018.</p>
+                            <p class="langHun" lang="hu">2018. május 18.</p>
+                            <p lang="en" class="award-high langEng">3rd place</p>
+                            <p lang="hu" class="award-high langHun">3. hely</p>
+                            <p lang="en" class="award-high langEng">Special award</p>
+                            <p lang="hu" class="award-high langHun">Különdíj</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="timeline-content content-right">
+                        <img src="img/trophy.png">
+                        <div class="timeline-content-text-right">
+                            <h2 class="langEng">Imagine cup CEE finals</h2>
+                            <h2 class="langHun">Imagine cup KKE döntő</h2>
+                            <p class="langEng" lang="en">31st of May 2018.</p>
+                            <p class="langHun" lang="hu">2018. május 31.</p>
+                            <p lang="en" class="award-high langEng">Qualified to the world finals</p>
+                            <p lang="hu" class="award-high langHun">Továbbjutás a világdöntőre</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ********** WRITTEN ABOUT US ********** -->
+<div id="WrittenAboutUs">
+    <div class="container-fluid wau">
+        <div class="container">
+            <div class="row">
+                <p lang="en" class="wau-title langEng">
+                    Written about us
+                </p>
+				<p lang="hu" class="wau-title langHun">
+                    Rólunk írták
+                </p>
+            </div>
+            <hr class="sevenfive">
+            <div class="row">
+                <div class="wau-topic">
+                    <a class="wau-link"
+                       href="https://index.hu/tech/2018/04/06/es_akkor_kiugrik_a_tankonyvbol_egy_repulogep/">
+                        <div class="wau-topic-ini">
+                            <p>i</p>
+                        </div>
+                        <div class="wau-topic-news">
+                            <p>index.hu</p>
+                        </div>
+                        <div class="wau-topic-title">
+                            <p>És akkor kiugrik a tankönyvből egy repülőgép</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="wau-topic">
+                    <a class="wau-link"
+                       href="https://24.hu/kozelet/2018/04/17/magyar-diakok-okostelefonnal-forradalmasitanak-az-oktatast/">
+                        <div class="wau-topic-ini">
+                            <p>24</p>
+                        </div>
+                        <div class="wau-topic-news">
+                            <p>24.hu</p>
+                        </div>
+                        <div class="wau-topic-title">
+                            <p>Magyar diákok okostelefonnal forradalmasítanák az oktatást</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="wau-topic">
+                    <a class="wau-link"
+                       href="https://www.hwsw.hu/hirek/58647/microsoft-imagine-cup-diakverseny-innobie-eddie-rienti.html">
+                        <div class="wau-topic-ini">
+                            <p>h</p>
+                        </div>
+                        <div class="wau-topic-news">
+                            <p>hwsw.hu</p>
+                        </div>
+                        <div class="wau-topic-title">
+                            <p>Imagine Cup: AR alapú oktatóapp nyerte a magyar döntőt</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="wau-topic">
+                    <a class="wau-link" href="asd">
+                        <div class="wau-topic-ini">
+                            <p>m</p>
+                        </div>
+                        <div class="wau-topic-news">
+                            <p>mediaklikk.hu</p>
+                        </div>
+                        <div class="wau-topic-title">
+                            <p>Tudomány minden napra</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="wau-topic">
+                    <a class="wau-link"
+                       href="http://eduline.hu/felsooktatas/2018/6/1/Eddie_Imagine_Cup_amerikai_dontojebe_jutott_SOG4RS">
+                        <div class="wau-topic-ini">
+                            <p>e</p>
+                        </div>
+                        <div class="wau-topic-news">
+                            <p>eduline.hu</p>
+                        </div>
+                        <div class="wau-topic-title">
+                            <p>Zseniális oktatási appot fejlesztettek, a Microsoft világversenyének döntőjébe jutottak</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- ********** PARTNERS ********** -->
+<div id="Partners">
+    <div class="container-fluid partners">
+        <div class="container">
+            <div class="row">
+                <p lang="en" class="partners-title langEng">
+                    Partners
+                </p>
+				<p lang="hu" class="partners-title langHun">
+                    Partnerek
+                </p>
+            </div>
+            <hr class="sevenfive">
+            <div class="row">
+                <div class="partner-container">
+                    <div class="partner-img">
+                        <img src="img/p_microsoft.jpg">
+                    </div>
+                    <div>
+                        <p lang="en" class="partner-name langEng">
+                            Microsoft Hungary
+                        </p>
+						<p lang="hu" class="partner-name langHun">
+                            Microsoft Magyarország
+                        </p>
+                    </div>
+                </div>
+                <div class="partner-container">
+                    <div class="partner-img">
+                        <img src="img/p_nate.png">
+                    </div>
+                    <div>
+                        <p lang="en" class="partner-name langEng">
+                            Association of Hungarian Women in Science
+                        </p>
+						<p lang="hu" class="partner-name langHun">
+                            Nők a Tudományban Egyesület
+                        </p>
+                    </div>
+                </div>
+                <div class="partner-container">
+                    <div class="partner-img">
+                        <img src="img/p_gamf.png">
+                    </div>
+                    <div>
+                        <p lang="en" class="partner-name langEng">
+                            John von Neumann University GAMF
+                        </p>
+						<p lang="hu" class="partner-name langHun">
+                            Neumann János Egyetem GAMF
+                        </p>
+                    </div>
+                </div>
+                <div class="partner-container">
+                    <div class="partner-img">
+                        <img src="img/p_arm.jpg">
+                    </div>
+                    <div>
+                        <p lang="en" class="partner-name langEng">
+                            ARM Hungary
+                        </p>
+						<p lang="hu" class="partner-name langHun">
+                            ARM Magyarország
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- ********** FOOTER ********** -->
+<div id="Contact">
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row contact">
+                <div class="col-xl-12">
+                    <p lang="en" class="contact-write langEng">Get in touch with us!</p>
+                    <p lang="hu" class="contact-write langHun">Írj nekünk!</p>
+                </div>
+                <hr class="fifty">
+                <div class="col-xl-12">
+                    <p lang="en" class="contact-desc langEng">If we caught your attention, or you want to work with
+                        us, then feel free to get in touch with us!</p>
+					<p lang="hu" class="contact-desc langHun">Ha bármilyen kérdés felmerült benned, vagy szeretnél
+						együttműködni velünk, akkor keress bátran minket!</p>
+                </div>
+                <div class="col-xl-12">
+                    <button class="button button-contact langEng">Send e-mail!</button>
+                    <button class="button button-contact langHun">Küldj e-mailt!</button>
+                </div>
+            </div>
+            <div class="row social-media">
+                <div class="col-xl-12">
+                    <p lang="en" class="social-media-title langEng">Or you can find us on social media!</p>
+                    <p lang="hu" class="social-media-title langHun">Vagy megtalálhatsz minket a közösségi oldalakon!</p>
+                </div>
+                <div class="col-xl-12">
+                    <p class="social-media-images">
+                        <a href="https://www.facebook.com/eddieapp/"><img src="img/s-fb.png"></a>
+                        <a href="https://www.instagram.com/madebyinnobie/"><img src="img/s-ig.png"></a>
+                        <a href="asd"><img src="img/s-t.png"></a>
+                        <a href="asd"><img src="img/s-in.png"></a>
+                        <a href="asd"><img src="img/s-yt.png"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./js/main.js"></script>
+</body>
+</html>

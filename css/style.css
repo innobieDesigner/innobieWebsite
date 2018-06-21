@@ -1,0 +1,528 @@
+/* ----- ALL ----- */
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+hr.fifty{
+    margin: 20px auto;
+    width: 50%;
+    opacity: 0.2;
+}
+hr.sevenfive{
+    margin: 20px auto;
+    width: 75%;
+    opacity: 0.2;
+}
+.langHun{
+    display: none;
+}
+
+/* ----- COVER ----- */
+.opening-screen{
+    height: 100vh;
+    background: url("../img/cover_bg.jpeg") no-repeat top center;
+    background-size: cover;
+    min-height: 800px;
+}
+.cover{
+    width: 100%;
+    height: 100%;
+}
+.nav-bar{
+    height: 120px;
+}
+.innobie-cover-logo-img img{
+    height: 110px;
+    float: left;
+    margin: 3% 0;
+}
+.innobie-cover-logo-img p{
+    font-size: 40px;
+    margin: 35px 0;
+    color: white;
+    font-weight: 700;
+}
+.innobie-cover-menu{
+    text-align: right;
+    font-size: 16px;
+    margin: 55px 0;
+}
+.innobie-cover-menu a{
+    text-decoration: none;
+    color: white;
+    padding: 0 3px 10px 3px;
+    margin: 0 10px;
+    transition-duration: 500ms;
+}
+.innobie-cover-menu a:hover{
+    border-bottom: white solid 1px;
+}
+.innobie-cover-menu .language{
+    margin-left: 10px;
+}
+.innobie-cover-menu .row{
+    float: right;
+}
+.innobie-cover-menu .language img{
+    width: 20px;
+    margin: 2px 5px;
+    border-radius: 50%;
+}
+
+/* ----- INNOBIE SPLASH ----- */
+
+.innobie-quote{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    width: 85%;
+    margin: auto;
+    padding-top: 5%;
+    font-family: 'Lekton', sans-serif;
+}
+.innobie-quote .quote-from{
+    text-align: right;
+    font-size: 16px;
+    width: 100%;
+    padding-top: 5px;
+    margin: auto;
+}
+.innobie-quote .quote-innobe{
+    text-align: center;
+    width: 85%;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 50px;
+    margin: auto;
+}
+.innobie-quote .quote-innobe .we-want{
+    font-weight: 700;
+    color: #e50024;
+}
+.innobie-quote .quote-innobe .somebody{
+    font-weight: 700;
+    color: #e50024;
+}
+.innobie-cover-buttons{
+    text-align: center;
+}
+.innobie-cover-buttons .button-container{
+    margin: auto;
+    padding-top: 60px;
+}
+.innobie-cover-buttons .button-container .button{
+    padding: 20px 40px;
+    border-radius: 40px;
+    margin: 0 10px;
+    font-size: 25px;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background-color: #9d0086;
+    transition-duration: 500ms;
+}
+.innobie-cover-buttons .button-container .button:hover{
+    background-color: #e50024;
+}
+
+/* ----- EDDIE ----- */
+
+.eddie{
+
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+}
+.eddie .eddie-logo img{
+    width: 340px;
+    margin: auto;
+}
+.eddie .eddie-text{
+    width: 100%;
+}
+.eddie .eddie-text .eddie-name{
+    font-size: 90px;
+    font-weight: 700;
+    color: #9d0086;
+}
+.eddie .eddie-text .eddie-short-desc{
+    font-family: 'Lekton', sans-serif;
+    font-size: 30px;
+    color: #e50024;
+}
+.eddie .eddie-text .eddie-problem{
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px 0 30px 0;
+    font-size: 18px;
+}
+.eddie .eddie-text .eddie-stores{
+    width: 100%;
+}
+.eddie .eddie-text .eddie-stores img{
+    width: 100%;
+}
+
+.eddie-slides{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.eddie-slides .eddie-row-img-right{
+    background: url("../img/bg-right.png") center right;
+    background-size: cover;
+    height: 100%;
+    min-height: 500px;
+    width: 100%;
+}
+.eddie-slides .eddie-row-img-left{
+    background: url("../img/bg-left.png") center left;
+    background-size: cover;
+    height: 100%;
+    min-height: 500px;
+    width: 100%;
+}
+.eddie-slides .eddie-row-text{
+    height: 100%;
+    min-height: 500px;
+}
+.eddie-slides .eddie-row-text .eddie-row-title{
+    font-size: 50px;
+    font-weight: 700;
+    color: #e50024;
+    padding: 130px 0 30px 0;
+}
+.eddie-slides .eddie-row-text .eddie-row-desc{
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+}
+.eddie-slides .eddie-row-text .eddie-row-desc .high{
+    font-weight: 700;
+    color: #9d0086;
+}
+
+/* ----- TEAM ----- */
+
+.innobie-team{
+    background-color: #9d0086;
+    width: 100%;
+}
+.innobie-team .team-members{
+    width: 65%;
+    margin: auto;
+    padding: 60px 0;
+}
+.innobie-team .team-members .team-title{
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: 0 25%;
+    font-size: 50px;
+    font-weight: 700;
+}
+.innobie-team .team-members .team-title-desc{
+    color: white;
+    width: 50%;
+    margin: 0 25%;
+    font-size: 20px;
+    font-family: 'Lekton', sans-serif;
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+.team-member-1, .team-member-2, .team-member-3,
+.team-member-4, .team-member-5, .team-member-6,
+.team-member-7{
+    padding: 20px;
+    color: white;
+}
+.innobie-team .team-members .team-img{
+    width: 80%;
+    margin: 0 10%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.innobie-team .team-members .team-img-role{
+    text-align: center;
+    font-family: 'Lekton', sans-serif;
+    padding-top: 10px;
+}
+.innobie-team .team-members .team-name{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+.innobie-team .team-members .team-intro{
+    text-align: justify;
+    padding-top: 10px;
+}
+.innobie-team .team-members .team-member-1{
+    background-color: #9a0084;
+}
+.innobie-team .team-members .team-member-2{
+    background-color: #960180;
+}
+.innobie-team .team-members .team-member-3{
+    background-color: #92017c;
+}
+.innobie-team .team-members .team-member-4{
+    background-color: #8c0177;
+}
+.innobie-team .team-members .team-member-5{
+    background-color: #880173;
+}
+.innobie-team .team-members .team-member-6{
+    background-color: #840270;
+}
+.innobie-team .team-members .team-member-7{
+    background-color: #81026d;
+}
+
+/* ----- TIME-LINE ----- */
+
+.timeline-fluid{
+    background-color: #ffd237;
+}
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background: linear-gradient(#9d0086 85%, #ffffff);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+.timeline-container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}.timeline-container::after {
+     content: '';
+     position: absolute;
+     width: 25px;
+     height: 25px;
+     right: -12px;
+     background-color: white;
+     border: 4px solid #e50024;
+     top: 20px;
+     border-radius: 50%;
+     z-index: 1;
+ }
+.left {
+      left: 0;
+    text-align: right;
+}
+.right {
+    left: 50%;
+    text-alight: left;
+}
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #9d0086;
+}
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #9d0086;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #9d0086 transparent transparent;
+}
+.right::after {
+    left: -12px;
+}
+.timeline-content {
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+.timeline-content p{
+    padding: 3px 0;
+}
+.timeline-content .award-high{
+    color: #9d0086;
+    font-weight: 700;
+}
+.content-left img{
+    width: 50px;
+    float: right;
+}
+.timeline-content .timeline-content-text-left{
+    padding-right: 60px;
+}
+.content-right img{
+    width: 50px;
+    float: left;
+}
+.timeline-content .timeline-content-text-right{
+    padding-left: 60px;
+}
+
+/* ----- WRITTEN ABOUT US ----- */
+
+.wau{
+    text-align: center;
+    padding: 30px 0;
+}
+.wau .wau-title{
+    color: #e50024;
+    font-weight: 700;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+.wau .wau-topic{
+    width: 18%;
+    margin: 1%;
+    padding: 1%;
+}
+.wau .wau-topic .wau-link{
+    text-decoration: none;
+}
+.wau .wau-topic:hover{
+    background-color: #dedede;
+    transition-duration: 700ms;
+    border-radius: 30px;
+}
+.wau .wau-topic .wau-topic-ini{
+    width: 100px;
+    height: 100px;
+    background-color: #9d0086;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Lekton', sans-serif;
+    margin: auto;
+    border-radius: 50%;
+}
+/*.wau .wau-topic .wau-topic-ini:nth-child(1,3,5){*/
+    /*background-color: #e50024;*/
+/*}*/
+/*.wau .wau-topic .wau-topic-ini:nth-child(2,4){*/
+    /*background-color: #9d0086;*/
+/*}*/
+.wau .wau-topic .wau-topic-ini p {
+    padding: 35% 0;
+}
+.wau .wau-topic .wau-topic-news{
+    font-size: 20px;
+    font-family: 'Lekton', sans-serif;
+    padding: 10px 0;
+    color: #e50024;
+}
+.wau .wau-topic .wau-topic-title{
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+}
+
+/* ----- PARTNERS ----- */
+
+.partners{
+    text-align: center;
+    padding: 30px 0 40px 0;
+}
+.partners .partners-title{
+    color: #e50024;
+    font-weight: 700;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+.partners .partner-container{
+    width: 25%;
+    padding: 0 5%;
+    margin: 20px 0;
+}
+.partners .partner-container img{
+    height: 120px;
+}
+.partners .partner-container .partner-name{
+    font-family: 'Lekton', sans-serif;
+    font-weight: 700;
+    color: #e50024;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+
+/* ----- FOOTER ----- */
+
+.footer{
+    width: 100%;
+    background: url("../img/footer.jpg") no-repeat center center;
+    background-size: cover;
+}
+.footer .contact{
+    text-align: center;
+    padding: 30px 0;
+}
+.footer .contact .contact-write{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+.footer .contact .contact-desc{
+    width: 50%;
+    margin: auto;
+    color: white;
+    font-family: 'Lekton', sans-serif;
+    font-size: 18px;
+}
+.footer .contact .button{
+    padding: 20px 40px;
+    border-radius: 40px;
+    margin: 20px 10px 0 10px;
+    font-size: 25px;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background-color: #9d0086;
+    transition-duration: 500ms;
+}
+.footer .contact .button:hover{
+    background-color: #e50024;
+}
+.footer .social-media{
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+.footer .social-media .social-media-title{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+.footer .social-media .social-media-images img{
+    margin: 30px 10px 20px 10px;
+    width: 50px;
+}
