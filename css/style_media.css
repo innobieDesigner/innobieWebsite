@@ -1,0 +1,253 @@
+@media(max-width: 575px){
+    .opening-screen{
+        min-height: 800px;
+    }
+    .nav-bar-background{
+        height: 170px;
+    }
+    .innobie-cover-menu{
+        margin: 10px 0;
+        font-size: 13px;
+    }
+    .innobie-cover-menu .row{
+        float: none;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .innobie-cover-menu a{
+        padding: 0 3px 5px 3px;
+        margin: 0 5px;
+    }
+    .innobie-cover-menu .language img{
+        width: 15px;
+        margin: 2px 1px;
+    }
+    .innobie-quote{
+        padding-top: 20%;
+        font-size: 35px;
+    }
+    .innobie-quote .quote-innobe{
+        width: 100%;
+    }
+    .eddie-slides .eddie-row-text .eddie-row-title{
+        padding: 40px 0 30px 0;
+    }
+    .innobie-team .team-members{
+        width: 90%;
+    }
+    .innobie-team .team-members .team-title {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer .contact .contact-desc{
+        width: 80%;
+    }
+}
+
+
+@media (min-width: 576px){
+    .opening-screen{
+        min-height: 800px;
+    }
+    .nav-bar-background{
+        height: 170px;
+    }
+    .innobie-cover-menu{
+        margin: 10px 0;
+        font-size: 13px;
+        text-align: center;
+    }
+    .innobie-cover-menu .row{
+        float: none;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .innobie-cover-menu a{
+        padding: 0 3px 5px 3px;
+        margin: 0 5px;
+    }
+    .innobie-cover-menu .language img{
+        width: 15px;
+        margin: 2px 1px;
+    }
+    .innobie-quote{
+        padding-top: 20%;
+        font-size: 35px;
+        width: 100%;
+    }
+    .innobie-quote .quote-innobe{
+        width: 90%;
+    }
+    .eddie-slides .eddie-row-text .eddie-row-title{
+        padding: 50px 0 30px 0;
+    }
+    .innobie-team .team-members{
+        width: 90%;
+    }
+    .innobie-team .team-members .team-title {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .innobie-team .team-members .team-title-desc{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer .contact .contact-desc{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .timeline::after {
+        left: 31px;
+    }
+    .timeline-container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    .timeline-container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    .left {
+        text-align: left;
+    }
+    .left::after, .right::after {
+        left: 18px;
+    }
+    .right {
+        left: 0%;
+    }
+    .content-left img{
+        float: left;
+    }
+    .timeline-content .timeline-content-text-left{
+        padding-left: 60px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .opening-screen{
+        min-height: 900px;
+    }
+    .innobie-cover-menu {
+        font-size: 16px;
+    }
+    .innobie-cover-menu .row{
+        float: none;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .innobie-cover-menu a{
+        text-decoration: none;
+        color: white;
+        padding: 0 3px 10px 3px;
+        margin: 0 10px;
+        transition-duration: 500ms;
+    }
+    .innobie-cover-menu .language img{
+        width: 20px;
+        margin: 2px 5px;
+        border-radius: 50%;
+    }
+    .innobie-quote{
+        padding-top: 15%;
+        font-size: 50px;
+        width: 100%;
+    }
+    .innobie-quote .quote-innobe{
+        width: 100%;
+    }
+    .eddie-slides .eddie-row-text .eddie-row-title{
+        padding: 90px 0 30px 0;
+    }
+    .innobie-team .team-members{
+        width: 80%;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .opening-screen{
+        min-height: 850px;
+    }
+    .nav-bar-background{
+        height: 190px;
+    }
+    .innobie-cover-menu .row{
+        float: none;
+        margin: auto;
+        width: 72%;
+        text-align: center;
+    }
+    .innobie-quote{
+        padding-top: 10%;
+        font-size: 60px;
+        width: 90%;
+    }
+    .innobie-quote .quote-innobe{
+        width: 100%;
+    }
+    .innobie-cover-logo-img img{
+        margin: 3% 0 3% 10%;
+    }
+    .eddie-slides .eddie-row-text .eddie-row-title{
+        padding: 110px 0 30px 0;
+    }
+    .innobie-team .team-members{
+        width: 70%;
+    }
+    .footer .contact .contact-desc{
+        width: 60%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .opening-screen{
+        min-height: 800px;
+    }
+    .nav-bar-background{
+        height: 130px;
+    }
+    .innobie-cover-menu{
+        margin: 55px 0;
+    }
+    .innobie-cover-menu .row{
+        float: right;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .innobie-quote{
+        padding-top: 10%;
+        width: 85%
+    }
+    .innobie-quote .quote-innobe{
+        width: 85%;
+    }
+    .eddie-slides .eddie-row-text .eddie-row-title{
+        padding: 130px 0 30px 0;
+    }
+    .innobie-team .team-members{
+        width: 65%;
+    }
+    .innobie-team .team-members .team-title {
+        width: 50%;
+        margin: 0 25%;
+    }
+    .innobie-team .team-members .team-title-desc{
+        width: 50%;
+        margin: 0 25%;
+    }
+    .footer .contact .contact-desc{
+        width: 50%;
+    }
+}
