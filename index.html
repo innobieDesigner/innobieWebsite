@@ -4,74 +4,83 @@
     <meta charset="UTF-8">
     <title>innobie</title>
 
-    <link rel="icon" type="image/gif/png" href="img/logo_w.ico">
+    <link rel="icon" type="image/gif/png" href="img/logo_c.ico">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lekton" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
     <link rel="stylesheet" type="text/css" href="css/style_media.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 
     <!-- ********** SPLASH SCREEN ********** -->
 
-    <div class="row opening-screen">
-        <div class="container cover">
-            <div class="row nav-bar">
-                <div class="col-sm-8 offset-sm-2 col-md-5 offset-md-3 offset-xl-0 col-xl-4 innobie-cover-logo-img">
-                    <img src="img/logo_c.png">
-                    <p>innobie</p>
-                </div>
-                <div class="col-sm-12 col-xl-8 innobie-cover-menu">
-                    <div class="row">
-                        <a class="langEng" href="index.html">Home</a>
-                        <a class="langHun" href="index.html">Home</a>
-                        <a class="langEng" href="#Eddie">Eddie</a>
-                        <a class="langHun" href="#Eddie">Eddie</a>
-                        <a class="langEng" href="#Team">The Team</a>
-                        <a class="langHun" href="#Team">A csapat</a>
-                        <a class="langEng" href="#WrittenAboutUs">Written about us</a>
-                        <a class="langHun" href="#WrittenAboutUs">Rólunk írták</a>
-                        <a class="langEng" href="#Partners">Partners</a>
-                        <a class="langHun" href="#Partners">Támogatók</a>
-                        <a class="langEng" href="#Contact">Contact</a>
-                        <a class="langHun" href="#Contact">Kapcsolat</a>
-                        <div id="english" class="language">
-                            <img onclick="cte()" src="img/lang_en.png">
+    <div class="container-fluid opening-screen">
+        <div class="container-fluid cover">
+            <div class="container-fluid nav-bar-background">
+                <div class="container">
+                    <div class="row nav-bar">
+                        <div class="col-sm-8 offset-sm-2 col-md-5 offset-md-3 offset-xl-0 col-xl-4 innobie-cover-logo-img">
+                            <img src="img/logo_w.png">
+                            <p>innobie</p>
                         </div>
-                        <div onclick="cth()" id="hungarian" class="language">
-                            <img src="img/lang_hu.png">
+                        <div class="col-sm-12 col-xl-8 innobie-cover-menu">
+                            <div class="row">
+                                <a class="langEng" href="index.html">Home</a>
+                                <a class="langHun" href="index.html">Home</a>
+                                <a class="langEng" href="#Eddie">Eddie</a>
+                                <a class="langHun" href="#Eddie">Eddie</a>
+                                <a class="langEng" href="#Team">The Team</a>
+                                <a class="langHun" href="#Team">A csapat</a>
+                                <a class="langEng" href="#WrittenAboutUs">Written about us</a>
+                                <a class="langHun" href="#WrittenAboutUs">Rólunk írták</a>
+                                <a class="langEng" href="#Partners">Partners</a>
+                                <a class="langHun" href="#Partners">Támogatók</a>
+                                <a class="langEng" href="#Contact">Contact</a>
+                                <a class="langHun" href="#Contact">Kapcsolat</a>
+                                <div id="english" class="language">
+                                    <img onclick="cte()" src="img/lang_en.png">
+                                </div>
+                                <div onclick="cth()" id="hungarian" class="language">
+                                    <img src="img/lang_hu.png">
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-
                 </div>
             </div>
 
-            <div class="row innobie-quote">
-                <p class="langEng" lang="en">
-                    "Everyone knew it was impossible, until a fool who didn't know
-                    came along and did it."
-                </p>
-				<p class="langHun" lang="hu">
-                    “Mindenki tudja, hogy bizonyos dolgokat nem lehet megvalósítani,
-					mígnem jön valaki, aki erről nem tud, és megvalósítja.”
-                </p>
-                <p class="quote-from"><i>- Albert Einstein -</i></p>
-                <p lang="en" class="quote-innobe langEng">We, <span class="we-want">innobie</span>
-                    want to be that <span class="somebody">somebody!</span></p>
-				<p lang="hu" class="quote-innobe langHun">Az <span class="we-want">innobie</span>
-                célja, hogy mi legyünk az a <span class="somebody">valaki!</span></p>
-            </div>
+            <div class="container">
+                <div class="row innobie-quote">
+                    <p class="langEng" lang="en">
+                        "Everyone knew it was impossible, until a fool who didn't know
+                        came along and did it."
+                    </p>
+                    <p class="langHun" lang="hu">
+                        “Mindenki tudja, hogy bizonyos dolgokat nem lehet megvalósítani,
+                        mígnem jön valaki, aki erről nem tud, és megvalósítja.”
+                    </p>
+                    <p class="quote-from"><i>- Albert Einstein -</i></p>
+                    <p lang="en" class="quote-innobe langEng">We, <span class="we-want">innobie</span>
+                        want to be that <span class="somebody">somebody!</span></p>
+                    <p lang="hu" class="quote-innobe langHun">Az <span class="we-want">innobie</span>
+                        célja, hogy mi legyünk az a <span class="somebody">valaki!</span></p>
+                </div>
 
-            <div class="row innobie-cover-buttons">
-                <div class="button-container">
-                    <a href="#Eddie"><button class="button button-eddie langEng">Try Eddie now!</button></a>
-                    <a href="#Eddie"><button class="button button-eddie langHun">Próbáld ki az Eddie-t!</button></a>
-                    <a href="#Team"><button class="button button-team langEng">More about us!</button></a>
-                    <a href="#Team"><button class="button button-team langHun">Tudj meg többet rólunk!</button></a>
+                <div class="row innobie-cover-buttons">
+                    <div class="button-container">
+                        <a href="#Eddie"><button class="button button-eddie langEng">Try Eddie now!</button></a>
+                        <a href="#Eddie"><button class="button button-eddie langHun">Próbáld ki az Eddie-t!</button></a>
+                        <a href="#Team"><button class="button button-team langEng">More about us!</button></a>
+                        <a href="#Team"><button class="button button-team langHun">Tudj meg többet rólunk!</button></a>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 
@@ -80,13 +89,13 @@
     <div class="container-fluid eddie">
         <div class="container">
             <div class="row">
-                <div class="col-xl-4 eddie-logo">
+                <div class="col-lg-4 col-xl-4 eddie-logo">
                     <img src="img/eddie.png">
                 </div>
-                <div class="col-xl-1">
+                <div class="col-lg-1 col-xl-1">
 
                 </div>
-                <div class="col-xl-6 eddie-text">
+                <div class="col-lg-6 col-xl-6 eddie-text">
                     <p lang="en" class="eddie-name langEng">Eddie</p>
 					<p lang="hu" class="eddie-name langHun">Eddie</p>
                     <p lang="en" class="eddie-short-desc langEng">- fun way of learning -</p>
@@ -121,7 +130,7 @@
  <div id="Eddie">
     <div class="container-fluid eddie-slides">
         <div class="row">
-            <div class="col-sm-4 col-xl-5 eddie-row-img-right"></div>
+            <div class="col-sm-4 col-xl-5 eddie-row-img-right right-img-1"></div>
             <div class="col-sm-8 col-xl-7 eddie-row-text">
                 <p lang="en" class="eddie-row-title langEng">Part of the innovations</p>
                 <p lang="hu" class="eddie-row-title langHun">Fejlődésben</p>
@@ -171,10 +180,10 @@
                     <span class="high">ötvözésének</span> terméke.
                 </p>
             </div>
-            <div class="col-sm-4 col-xl-5 eddie-row-img-left"></div>
+            <div class="col-sm-4 col-xl-5 eddie-row-img-left left-img-1"></div>
         </div>
         <div class="row">
-            <div class="col-sm-4 col-xl-5 eddie-row-img-right"></div>
+            <div class="col-sm-4 col-xl-5 eddie-row-img-right right-img-2"></div>
             <div class="col-sm-8 col-xl-7 eddie-row-text">
                 <p lang="en" class="eddie-row-title langEng">Entertainment and education</p>
                 <p lang="hu" class="eddie-row-title langHun">Szórakozás és tanulás</p>
@@ -219,7 +228,7 @@
 						és szemlélni a készülék kijelzőjének segítségével.
                     </p>
                 </div>
-                <div class="col-sm-4 col-xl-5 eddie-row-img-left"></div>
+                <div class="col-sm-4 col-xl-5 eddie-row-img-left left-img-2"></div>
             </div>
         </div>
     </div>
@@ -340,7 +349,7 @@
                         <div class="col-4">
                             <img class="team-img" src="img/team_karesz.jpg">
                             <p lang="en" class="team-img-role langEng">3D modeler</p>
-                            <p lang="hu" class="team-img-role">3D modellező</p>
+                            <p lang="hu" class="team-img-role langHun">3D modellező</p>
                         </div>
                         <div class="col-8">
                             <p lang="en" class="team-name langEng">Károly Bicskei</p>
@@ -432,7 +441,7 @@
                     <div class="timeline-content content-right">
                         <img src="img/trophy.png">
                         <div class="timeline-content-text-right">
-                            <h2 class="langEng">Microsoft Imagine Cup national Finals</h2>
+                            <h2 class="langEng">Microsoft Imagine Cup national finals</h2>
                             <h2 class="langHun">Microsoft Imagine Cup országos döntő</h2>
                             <p class="langEng" lang="en">4th of April 2018.</p>
                             <p class="langHun" lang="hu">2018. április 4.</p>
@@ -473,8 +482,8 @@
                     <div class="timeline-content content-left">
                         <img src="img/trophy.png">
                         <div class="timeline-content-text-left">
-                            <h2 class="langEng">Idea challenge</h2>
-                            <h2 class="langHun">Ötlet verseny</h2>
+                            <h2 class="langEng">IDEA challenge</h2>
+                            <h2 class="langHun">IDEA Challenge Ötletverseny</h2>
                             <p class="langEng" lang="en">18th of May 2018.</p>
                             <p class="langHun" lang="hu">2018. május 18.</p>
                             <p lang="en" class="award-high langEng">3rd place</p>
@@ -488,8 +497,8 @@
                     <div class="timeline-content content-right">
                         <img src="img/trophy.png">
                         <div class="timeline-content-text-right">
-                            <h2 class="langEng">Imagine cup CEE finals</h2>
-                            <h2 class="langHun">Imagine cup KKE döntő</h2>
+                            <h2 class="langEng">Imagine Cup CEE Semi-Final</h2>
+                            <h2 class="langHun">Imagine Cup CEE Semi-Final</h2>
                             <p class="langEng" lang="en">31st of May 2018.</p>
                             <p class="langHun" lang="hu">2018. május 31.</p>
                             <p lang="en" class="award-high langEng">Qualified to the world finals</p>
@@ -516,7 +525,7 @@
             <hr class="sevenfive">
             <div class="row">
                 <div class="wau-topic col-sm-6 col-md-4 col-lg-2 offset-lg-1">
-                    <a class="wau-link"
+                    <a target="_blank" class="wau-link"
                        href="https://index.hu/tech/2018/04/06/es_akkor_kiugrik_a_tankonyvbol_egy_repulogep/">
                         <div class="wau-topic-ini">
                             <p>i</p>
@@ -530,7 +539,7 @@
                     </a>
                 </div>
                 <div class="wau-topic col-sm-6 col-md-4 col-lg-2">
-                    <a class="wau-link"
+                    <a target="_blank" class="wau-link"
                        href="https://24.hu/kozelet/2018/04/17/magyar-diakok-okostelefonnal-forradalmasitanak-az-oktatast/">
                         <div class="wau-topic-ini">
                             <p>24</p>
@@ -544,7 +553,7 @@
                     </a>
                 </div>
                 <div class="wau-topic col-sm-6 col-md-4 col-lg-2">
-                    <a class="wau-link"
+                    <a target="_blank" class="wau-link"
                        href="https://www.hwsw.hu/hirek/58647/microsoft-imagine-cup-diakverseny-innobie-eddie-rienti.html">
                         <div class="wau-topic-ini">
                             <p>h</p>
@@ -558,20 +567,20 @@
                     </a>
                 </div>
                 <div class="wau-topic col-sm-6 col-md-4 offset-md-2 col-lg-2 offset-lg-0">
-                    <a class="wau-link" href="asd">
+                    <a target="_blank" class="wau-link" href="https://www.youtube.com/watch?v=YuJVhBodwgI&t=1s">
                         <div class="wau-topic-ini">
-                            <p>m</p>
+                            <p>y</p>
                         </div>
                         <div class="wau-topic-news">
-                            <p>mediaklikk.hu</p>
+                            <p>YouTube.com</p>
                         </div>
                         <div class="wau-topic-title">
-                            <p>Tudomány minden napra</p>
+                            <p>Az Innobie képviseli hazánkat az Imagine Cup 2018-as döntőjében</p>
                         </div>
                     </a>
                 </div>
                 <div class="wau-topic col-sm-6 offset-sm-3 col-md-4 offset-md-0 col-lg-2">
-                    <a class="wau-link"
+                    <a target="_blank" class="wau-link"
                        href="http://eduline.hu/felsooktatas/2018/6/1/Eddie_Imagine_Cup_amerikai_dontojebe_jutott_SOG4RS">
                         <div class="wau-topic-ini">
                             <p>e</p>
@@ -602,20 +611,20 @@
             </div>
             <hr class="sevenfive">
             <div class="row">
-                <div class="partner-container col-sm-6 col-lg-4">
+                <div class="partner-container col-sm-6 col-lg-3">
                     <div class="partner-img">
                         <img src="img/p_microsoft.jpg">
                     </div>
                     <div>
                         <p lang="en" class="partner-name langEng">
-                            Microsoft Hungary
+                            Microsoft
                         </p>
 						<p lang="hu" class="partner-name langHun">
-                            Microsoft Magyarország
+                            Microsoft
                         </p>
                     </div>
                 </div>
-                <div class="partner-container col-sm-6 col-lg-4">
+                <div class="partner-container col-sm-6 col-lg-3">
                     <div class="partner-img">
                         <img src="img/p_nate.png">
                     </div>
@@ -628,7 +637,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="partner-container col-sm-6 col-lg-4">
+                <div class="partner-container col-sm-6 col-lg-3">
                     <div class="partner-img">
                         <img src="img/p_gamf.png">
                     </div>
@@ -641,7 +650,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="partner-container col-sm-6 col-lg-4">
+                <div class="partner-container col-sm-6 col-lg-3">
                     <div class="partner-img">
                         <img src="img/p_arm.jpg">
                     </div>
@@ -675,8 +684,8 @@
 						együttműködni velünk, akkor keress bátran minket!</p>
                 </div>
                 <div class="col-xl-12">
-                    <button class="button button-contact langEng">Send e-mail!</button>
-                    <button class="button button-contact langHun">Küldj e-mailt!</button>
+                    <button onclick="mail()" class="button button-contact langEng">Send e-mail!</button>
+                    <button onclick="mail()" class="button button-contact langHun">Küldj e-mailt!</button>
                 </div>
             </div>
             <div class="row social-media">
