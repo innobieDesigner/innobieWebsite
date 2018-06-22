@@ -97,9 +97,12 @@ hr.sevenfive{
     font-weight: 700;
     color: #e50024;
 }
-.innobie-quote .quote-innobe .somebody{
+.innobie-quote .somebody{
     font-weight: 700;
     color: #e50024;
+}
+.innobie-quote .bigone{
+    color: #ffd237;
 }
 .innobie-cover-buttons{
     text-align: center;
