@@ -78,6 +78,7 @@ hr.sevenfive{
     margin: auto;
     padding-top: 5%;
     font-family: 'Lekton', sans-serif;
+    line-height: 1;
 }
 .innobie-quote .quote-from{
     text-align: right;
