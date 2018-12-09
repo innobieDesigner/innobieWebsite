@@ -246,7 +246,7 @@ hr.sevenfive{
 }
 .team-member-1, .team-member-2, .team-member-3,
 .team-member-4, .team-member-5, .team-member-6,
-.team-member-7{
+.team-member-7, .team-member-8, .team-member-9{
     padding: 20px;
     color: white;
 }
@@ -275,21 +275,27 @@ hr.sevenfive{
     background-color: #9a0084;
 }
 .innobie-team .team-members .team-member-2{
-    background-color: #960180;
+    background-color: #980082;
 }
 .innobie-team .team-members .team-member-3{
-    background-color: #92017c;
+    background-color: #950180;
 }
 .innobie-team .team-members .team-member-4{
-    background-color: #8c0177;
+    background-color: #92007c;
 }
 .innobie-team .team-members .team-member-5{
-    background-color: #880173;
+    background-color: #8d0179;
 }
 .innobie-team .team-members .team-member-6{
-    background-color: #840270;
+    background-color: #8a0175;
 }
 .innobie-team .team-members .team-member-7{
+    background-color: #860272;
+}
+.innobie-team .team-members .team-member-8{
+    background-color: #83026f;
+}
+.innobie-team .team-members .team-member-9{
     background-color: #81026d;
 }
 
@@ -415,7 +421,7 @@ hr.sevenfive{
     text-decoration: none;
 }
 .wau .wau-topic:hover{
-    background-color: #dedede;
+    background-color: #eeeeee;
     transition-duration: 700ms;
     border-radius: 30px;
 }
@@ -462,7 +468,9 @@ hr.sevenfive{
     margin-bottom: 20px;
 }
 .partners .partner-container img{
-    height: 120px;
+    max-height: 100px;
+    max-width: 100%;
+    margin: auto 0;
 }
 .partners .partner-container .partner-name{
     font-family: 'Lekton', sans-serif;
